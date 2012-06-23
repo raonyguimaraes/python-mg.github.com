@@ -56,8 +56,11 @@ section{
 	border-style:solid;
 	border-color:red;
 	border-radius:50px;
+	min-height: 171px;
+	height: auto;
 }
 #post img{
+	float:left;
 	margin:-20px 10px 10px 10px;
 }
 
