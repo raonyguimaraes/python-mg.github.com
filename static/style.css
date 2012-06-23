@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px auto;
+    padding: 0 auto;
     vertical-align: baseline;
     border-style: none;
 }
@@ -8,11 +8,68 @@
 html{
     overflow-y: scroll;
 }
+body{
+	background-color:#eee;
+}
 
-h1{
+header{
+	border-bottom:5px solid red;
+	background-color:#999;
+	padding:20px;
+}
+
+header h1{
     font: bold italic 36px;
     color: #414141;
-    text-shadow: 1px 1px 0 #ccc;
+    text-shadow: 3px 3px 0 #ccc;
+}
+
+header h3{
+	margin:5px;
+	color:#ccc;
+	font-style:italic;
+	font-size:15px ;
+	
+}
+header img{
+	float:left;
+	margin-right:20px;
+}
+
+#navbar {
+	
+	margin-top:-80px;
+	display:inline;
+	float:right;
+}
+
+section{
+    clear:both;
+	margin:20px;
+	padding:40px;
+	width:80%;
+	height:75%;
+}
+
+#post{
+	padding:40px;
+	border-style:solid;
+	border-color:red;
+	border-radius:50px;
+}
+#post img{
+	margin:-20px 10px 10px 10px;
+}
+
+section img{
+	float:left;
+}
+
+footer{
+	clear:both;
+	width:30%;
+	text-align:center;
+	border-top:1px dashed red;
 }
 
 
