@@ -80,34 +80,33 @@ header a img{
 section{
     clear:both;
 	padding:40px;
-
-	height:100%;
-	
-
 	width:670px;
+	min-height: 200px;
+	height: auto;
 	
 }
 
 #post{
 	padding:10px;
-	border-bottom:1px solid #cc0000;
-	border-color:red;
-	float:left;
-	min-height: 100px;
-
-	height: auto;
-}
-#post img{
-	float:left;
 }
 
 #post p{
 	font-size:14px;
 }
 
+#head_post{
+	display:block;
+	text-align:center;
+	border-bottom:2px solid #cc0000;
+}
+
+#body_post p{
+	padding:20px;
+	float:left;
+}
+
 #post a{
 	clear:both;
-	float:right;
 	color:Dimgray;
 	text-decoration:none;
 }
@@ -116,8 +115,8 @@ section{
 	text-decoration:underline;
 }
 
-section img{
-	float:left;
+#link_d{
+	float:right;
 }
 
 footer{
