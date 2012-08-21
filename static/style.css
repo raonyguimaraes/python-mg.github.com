@@ -88,7 +88,7 @@ section{
 	
 }
 
-#post{
+.post{
 	padding:10px;
 	border-bottom:1px solid #cc0000;
 	border-color:red;
@@ -97,22 +97,22 @@ section{
 
 	height: auto;
 }
-#post img{
+.post img{
 	float:left;
 }
 
-#post p{
+.post p{
 	font-size:14px;
 }
 
-#post a{
+.post a{
 	clear:both;
 	float:right;
 	color:Dimgray;
 	text-decoration:none;
 }
 
-#post a:hover{
+.post a:hover{
 	text-decoration:underline;
 }
 
