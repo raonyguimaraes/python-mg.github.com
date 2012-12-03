@@ -1,75 +1,56 @@
-<!DOCTYPE html>
-
+<!doctype html>
 <html lang="pt-br">
-    <head>
-        <meta charset="utf-8">
-        <title>Python-MG</title>
-        <link rel="stylesheet" type="text/css" href="static/style.css" />
-    </head>
-    
-    <body>
-	<header>
-	    <img id="logo" src="logo/logo-python-mg-small.png">
-	    <h1>Python-MG</h1>
-	    <h3>A comunidade mineira de python</h3>
-	    <ul>
-		<li><a href="https://twitter.com/#!/pythonmg" target="blank_">
-			@pythonmg
-		</a></li>
-		<li><a href="https://groups.google.com/forum/?fromgroups#!forum/python-mg" target="blank_">
-			python-mg
-		</a></li>
-	    </ul>
-	    <a href="https://github.com/python-mg" target="blank_">
-		    <img src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" />
-	    </a>
-        </header>
-        
-        <section>
-	    <div class="post">
-		<img src="logo/pao-de-queijo.png"/>
-		<h3>Hello World!</h3>
-		<p>Python-MG é a comunidade mineira de python, uai!
-			Atualmente com mais de 100 membros inscritos em sua 
-			lista de discussão, o grupo tenta promover interação 
-			entre seus membros, bem como divulgar e promover 
-			eventos, coding-dojos e outros.
-		</p>
-		<a href="pages/hello.html" alt="Hello World">Ler Mais...</a>
-	    </div>
-
-	    <div class="post">
-		<img src="logo/discuss.png"/>
-		<h3>Vamos conversar</h3>
-		<p>Nossa lista de discussão conta atualmente com um 
-		    grande número de usuários, porém a participação de 
-		    todos não é ativa.Por isso faço o convite: Junte-se a
-		    nós para tormamos ainda mais forte o grupo!
-		</p>
-		<a href="pages/lista_discussao.html" alt="Lista de Discussão">Ler Mais...</a>
-	    </div>
-        
-        
-        <div class="post">
-		<img src="logo/podium.png"/>
-		<h3>Ranking</h3>
-		<p>Com intuito de aprimorar conhecimento dos membros do grupo
-        e outros assuntos discutidos na lista de discussão, estamos 
-        criando ranking baseado em resolução de exercicios.
-        Participe também e se aprimore!
-		</p>
-		<a href="pages/ranking.html" alt="Lista de Discussão">Ler Mais...</a>
-	    </div>
-	</section>
-	
-	<footer>
-	<!--Rodapé-->
-	    <a href="http://2012.pythonbrasil.org.br" target="blank_">
-		    <img src="http://2012.pythonbrasil.org.br/static/images/badges/im_attending_aside_pt.png" alt="Eu vou na PythonBrasil[8]" height="180" width="200">
-	    </a>
-	    <a href="http://devday.devisland.com/" target="blank_">
-		    <img src="logo/devday.png" alt="Eu vou na Dev Day BH" height="160" width="180">
-	    </a>
-	</footer>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <title>PUG-MG</title>
+    <link rel="stylesheet" href="stylesheets/screen.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="stylesheets/facebox.css" type="text/css" media="screen" />
+    <script src="javascripts/jquery.js" type="text/javascript"></script>
+    <script src="javascripts/facebox.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $('a[rel*=facebox]').facebox()
+        })
+    </script>
+</head>
+<body>
+    <div id="masthead">
+        <h1><img alt="Logo PUG-MG" src="logo/logo-pug-mg-mini.png" /></h1>
+        <ul id="nav">
+            <li><a class="active" title="Red Lantern home" href="index.html">Principal</a></li>
+            <li><a title="Twitter" href="https://twitter.com/pythonmg" target="blank_">Twitter</a></li>
+            <li><a title="Google Groups" href="https://groups.google.com/forum/?fromgroups#!forum/python-mg" target="blank_">Google Groups</a></li>
+            <li><a title="Github" href="https://github.com/python-mg" target="blank_">Github</a></li>
+            <li><a title="Email" href="mailto:python.minas.gerais@gmail.com">Email</a></li>
+        </ul>
+    </div>
+    <div id="wrap">
+        <div id="header">
+            <h1><strong>PUG-MG</strong></h1>
+            <h1><i>Comunidade em crescimento e evolução.</i></h1>
+        </div>
+        <div id="content">
+            <h2>Bem vindo ao PUG-MG</h2>
+            <p>PUG-MG é a comunidade mineira de python, uai! Atualmente com mais de 100 membros inscritos em sua lista de discussão, o grupo tenta promover interação entre seus membros, bem como divulgar e promover eventos, coding-dojos e outros. Visamos também a promoção dos projetos desenvolvidos pelos membros de forma a criar uma rede colaborativa.</p>
+            <p>É um grupo formado recentemente, que não conta com uma sede física devido a distância entre as cidades.Receptivos, como bons mineiros que somos, temos sempre pão de queijo à mesa.</p>
+            <p>Nossa lista de discussão conta atualmente com um grande número de usuários, porém a participação de todos não é ativa.Por isso faço o convite: Junte-se a nós para tormamos ainda mais forte o grupo!</p>
+            <p>Atualmente estamos presente no Twitter, no Google groups e no irc, canal #python-mg no freenode.Lembramos que quem quiser contribuir com nossos projetos, o nosso github está aberto a colaborações.</p>
+            <ul id="link-list">
+                <li><a title="Visite nosso twitter" href="https://twitter.com/#!/pythonmg">Visite nosso twitter!</a></li>
+                <li><a title="Mande-nos email" href="mailto:python.minas.gerais@gmail.com">Mande-nos um email</a></li>
+            </ul>
+        </div>
+        <div id="sidebar">
+            <h2>Comunidades Locais</h2>
+            <ul id="port">
+                <li><a title="Ver Ampliado" href="images/grupython_large.gif" rel="facebox"><img alt="mark in japan comp" src="images/grupython.png" /></a><a href="http://gplus.to/grupythonufla" target="blank_">Grupython</a></li>
+                <li><a title="Ver Ampliado" href="images/comunidade_large.gif" rel="facebox"><img alt="audio 2 go comp" src="images/comunidade.gif" /></a></li>
+                <li><a title="Ver Ampliado" href="images/comunidade_large.gif" rel="facebox"><img alt="rpm comp" src="images/comunidade.gif" /></a></li>
+            </ul>
+        </div>
+        <div id="footer">
+            <p>Tema Red Lantern do livro Use a Cabeça Web Design(Head First Web Design).</p>
+        </div>
+    </div>
+</body>
 </html>
