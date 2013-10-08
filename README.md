@@ -4,7 +4,7 @@ Site da comunidade mineira de python
 Mais um passo da comunidade.
 Primeiro projeto desenvolvido de forma colaborativa entre os membros da python - mg.
 
-TODO's:
+TODO's
 
 - [ ] Desenhar novo layout
 - [ ] Definir seções de conteúdo
