@@ -5,7 +5,6 @@ Mais um passo da comunidade.
 Primeiro projeto desenvolvido de forma colaborativa entre os membros da python - mg.
 
 TODO's
-
 - [ ] Desenhar novo layout
 - [ ] Definir seções de conteúdo
 - [ ] Revisitar conteúdo textual e identidade visual
